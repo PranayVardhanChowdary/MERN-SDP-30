@@ -1,4 +1,4 @@
-# Banking Management System
+# Magada Bank
 
 ## Overview
 
