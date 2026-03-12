@@ -5,13 +5,16 @@
 The Banking Management System is a full-stack web application designed to streamline and manage the operations of a financial institution. Built using the MERN stack, the system provides a robust and scalable platform for handling customer accounts, transactions, loans, and various banking services, ensuring security and efficiency.
 
 ## Features
+AND
+Backend Contributions
 
-- **User Account Management:** Create, update, and manage customer accounts securely.
-- **Transaction Management:** Perform deposits, withdrawals, transfers, and view detailed transaction histories.
-- **Loan Management:** Apply for, approve, and track the repayment of various loan types.
-- **Admin Dashboard:** Comprehensive dashboard for admins to monitor and manage the bank’s operations, including generating reports and analytics.
-- **Security Features:** Implementation of multi-factor authentication (MFA), data encryption, and secure session management.
-- **Role-Based Access Control:** Secure access with different permissions for customers, tellers, and admins.
+User Account Management: Designed and implemented secure account creation APIs with data validation and encryption. Built authentication system with session management.
+Transaction Processing: Built transaction APIs for deposits, withdrawals, transfers with ACID compliance. Implemented optimistic locking to prevent concurrent transaction conflicts. Designed transaction history endpoints with filtering and pagination.
+Loan Management: Developed REST APIs for loan application submission, approval workflows, and repayment tracking. Built business logic for interest calculation and payment processing.
+Admin Dashboard APIs: Built comprehensive backend endpoints for admin operations including user management, transaction monitoring, report generation, and analytics data aggregation.
+Security Implementation: Implemented multi-factor authentication (MFA) on the backend. Handled data encryption for sensitive fields. Built secure session management with token-based authentication.
+Role-Based Access Control (RBAC): Implemented authorization middleware to enforce different permission levels for customers, tellers, and admins. Built role validation across all endpoints.
+Real-Time Updates: Designed WebSocket architecture for real-time transaction confirmations and balance updates. Built sync reconciliation logic for offline transactions.
 
 ## Technology Stack
 
